@@ -4,8 +4,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 # defaults 
 HOSTNAME="localhost"
-USERNAME="admin"
-PASSWORD="password123"
+USERNAME="emy"
+PASSWORD="Cucus.005"
 EMAIL="test@example.com"
 STORAGEACCOUNT=""
 CONTAINER=""
@@ -55,8 +55,8 @@ mount /mnt/files
 
 #Download Nextcloud
 cd /var/www/html
-wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
-unzip nextcloud-24.0.1.zip
+wget https://download.nextcloud.com/server/releases/nextcloud-27.1.4.zip
+unzip nextcloud-27.1.4.zip
 chown -R root:root nextcloud
 cd nextcloud
 
