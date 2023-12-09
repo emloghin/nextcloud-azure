@@ -41,6 +41,7 @@ done
 
 apt-get update
 apt-get upgrade -y
+apt-get install -y nfs-common
 
 #Mount the file storage
 mkdir -p /mnt/files
