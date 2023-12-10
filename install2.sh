@@ -45,6 +45,7 @@ apt-get install -y nfs-common
 
 #Mount the file storage
 mkdir -p /mnt/files
+mkdir -p /mnt/files/Docker
 echo "$STORAGEACCOUNT.privatelink.blob.core.windows.net:/$STORAGEACCOUNT/$CONTAINER  /mnt/files    nfs defaults,sec=sys,vers=3,nolock,proto=tcp,nofail    0 0" >> /etc/fstab 
 mount /mnt/files
 
